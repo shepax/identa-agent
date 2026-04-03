@@ -1,0 +1,35 @@
+# identa.toml — User project configuration
+
+[calibration]
+target_model = "gpt-4o"
+reflection_model = "gpt-4o"
+calibration_questions = 20
+global_iterations = 20
+local_evolution_steps = 10
+num_islands = 3
+
+[transfer]
+mapping_extractor_model = "gpt-5"
+adapter_model = "gpt-5"
+
+[scorer]
+syntax_validity_weight = 0.35
+entry_point_weight = 0.35
+risk_free_weight = 0.20
+no_undesirable_weight = 0.10
+
+[scorer.domain_overrides.writing]
+syntax_validity_weight = 0.0
+entry_point_weight = 0.0
+risk_free_weight = 0.0
+no_undesirable_weight = 0.0
+# Writing tasks need custom scorers
+
+[providers]
+openai_api_key = "${OPENAI_API_KEY}"       # Environment variable interpolation
+anthropic_api_key = "${ANTHROPIC_API_KEY}"
+ollama_base_url = "http://localhost:11434"
+
+[store]
+backend = "sqlite"
+sqlite_path = "~/.identa/store.db"

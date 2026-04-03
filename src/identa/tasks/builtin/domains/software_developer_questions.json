@@ -1,0 +1,216 @@
+[
+  {
+    "question": "Write a Python function to reverse a linked list.",
+    "answer": "def reverse(head):\n    prev = None\n    curr = head\n    while curr:\n        next_node = curr.next\n        curr.next = prev\n        prev = curr\n        curr = next_node\n    return prev",
+    "metadata": {
+      "type": "coding",
+      "entry_point": "reverse"
+    }
+  },
+  {
+    "question": "Explain the difference between a process and a thread.",
+    "answer": "A process is an independent execution unit with its own memory space. A thread is a subset of a process that shares memory with other threads in the same process.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Write a SQL query to find the second highest salary from an Employees table.",
+    "answer": "SELECT MAX(salary) FROM Employees WHERE salary < (SELECT MAX(salary) FROM Employees);",
+    "metadata": {
+      "type": "coding"
+    }
+  },
+  {
+    "question": "What is the O(log n) time complexity, and give an example algorithm that uses it?",
+    "answer": "Logarithmic time complexity means the execution time increases proportionally to the logarithm of the input size. Example: Binary Search on a sorted array.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Write a Python decorator that measures the execution time of a function.",
+    "answer": "import time\ndef timer(func):\n    def wrapper(*args, **kwargs):\n        start = time.time()\n        result = func(*args, **kwargs)\n        print(f'Duration: {time.time() - start}')\n        return result\n    return wrapper",
+    "metadata": {
+      "type": "coding",
+      "entry_point": "timer"
+    }
+  },
+  {
+    "question": "How does a distributed hash table (DHT) handle node failures?",
+    "answer": "DHTs use consistent hashing and replication. Keys are assigned to multiple nodes, so if one fails, its neighbor already has a copy of the data.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain the difference between TCP and UDP.",
+    "answer": "TCP is connection-oriented, reliable, and ordered. UDP is connectionless, faster, but has no guarantee of delivery or ordering.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Write a regular expression to match a valid IPv4 address.",
+    "answer": "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$",
+    "metadata": {
+      "type": "coding"
+    }
+  },
+  {
+    "question": "What is a memory leak, and how can it happen in a garbage-collected language?",
+    "answer": "A memory leak is memory that is no longer used but not released. In GC languages, it happens when objects are still reachable but shouldn't be (e.g., in a static collection).",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "How does React's Virtual DOM improve performance?",
+    "answer": "It minimizes direct DOM manipulations by calculating changes in a virtual representation and only updating the necessary parts of the real DOM in batch.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain Dependency Injection.",
+    "answer": "A design pattern where an object's dependencies are provided by an external source instead of being created by the object itself, promoting decoupling.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Implement Kadane's algorithm for finding the maximum subarray sum.",
+    "answer": "def max_subarray(nums):\n    curr_max = global_max = nums[0]\n    for x in nums[1:]:\n        curr_max = max(x, curr_max + x)\n        global_max = max(global_max, curr_max)\n    return global_max",
+    "metadata": {
+      "type": "coding",
+      "entry_point": "max_subarray"
+    }
+  },
+  {
+    "question": "What is the difference between REST and GraphQL?",
+    "answer": "REST is resource-based with fixed endpoints. GraphQL allows clients to request exactly the data they need in a single request, avoiding over/under-fetching.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain how Git's 'rebase' differs from 'merge'.",
+    "answer": "Merge creates a new commit joining two histories. Rebase rewrites history by moving the base of a branch to another, resulting in a linear history.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What is a deadlock in concurrent programming?",
+    "answer": "A situation where two or more threads are blocked forever, each waiting for a lock held by the other.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain the concept of 'idempotency' in HTTP methods.",
+    "answer": "An idempotent method (like GET, PUT, or DELETE) has the same effect whether called once or multiple times consecutively.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "How do you prevent SQL injection attacks?",
+    "answer": "Use prepared statements with parameterized queries instead of concatenating raw strings into SQL commands.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What are the SOLID principles of object-oriented design?",
+    "answer": "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain the difference between 'stack' and 'heap' memory.",
+    "answer": "Stack is for local variables and function calls (fast, automatic). Heap is for dynamic memory allocation (larger, manual/GC managed).",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What is Docker's 'copy-on-write' mechanism?",
+    "answer": "Docker images share layers. When a change is made, only the modified layer is copied and stored, saving disk space and speeding up builds.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Write a Python generator that yields Fibonacci numbers.",
+    "answer": "def fib():\n    a, b = 0, 1\n    while True:\n        yield a\n        a, b = b, a + b",
+    "metadata": {
+      "type": "coding",
+      "entry_point": "fib"
+    }
+  },
+  {
+    "question": "What is the difference between a hash map and a tree map?",
+    "answer": "Hash map is unordered with O(1) average access. Tree map is ordered by key with O(log n) access time.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain the 'N+1 queries' problem in ORM.",
+    "answer": "When an application makes one query to fetch N parent records, then N additional queries to fetch child records for each parent, hurting performance.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What is a Load Balancer, and how does 'sticky session' work?",
+    "answer": "A Load Balancer distributes traffic across servers. Sticky sessions ensure that all requests from a specific user are routed to the same server.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "How does a microservices architecture differ from a monolithic architecture?",
+    "answer": "Monolith is a single, unified codebase. Microservices break the application into small, independent services communicating via APIs.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What is 'lazy loading' in the context of web performance?",
+    "answer": "The practice of delaying the loading of resources (like images or long scripts) until they are actually needed (e.g., scrolled into view).",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "Explain the purpose of a 'Content Delivery Network' (CDN).",
+    "answer": "A CDN caches static assets in geographically distributed servers to reduce latency and load for the origin server.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What is the CAP theorem in distributed systems?",
+    "answer": "A system can only provide two of three guarantees: Consistency, Availability, and Partition Tolerance.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "How does the 'async/await' pattern handle concurrency in Python?",
+    "answer": "It uses an event loop to switch between coroutines whenever they encounter I/O waiting, allowing single-threaded concurrency.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  },
+  {
+    "question": "What is the difference between an abstract class and an interface?",
+    "answer": "An abstract class can contain concrete methods and state. An interface (in many languages) only defines method signatures that must be implemented.",
+    "metadata": {
+      "type": "conceptual"
+    }
+  }
+]

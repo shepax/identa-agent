@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Summarize the importance of exercise for mental health in three sentences.",
+    "answer": "Exercise releases endorphins, which act as natural stress relievers and mood boosters. Regular physical activity can also improve sleep quality and reduce symptoms of anxiety and depression. Overall, staying active is a vital component of holistic mental well-being."
+  },
+  {
+    "question": "Write a formal email to a team member requesting a meeting for Friday at 10 AM.",
+    "answer": "Subject: Request for Meeting: Project Status Update\n\nDear [Name],\n\nI hope you're having a productive week. Would you be available for a brief meeting this Friday at 10:00 AM to discuss the latest project status?\n\nPlease let me know if this time works for you.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "question": "What are the common benefits of a Mediterranean diet?",
+    "answer": "High in healthy fats (olive oil), fresh fruits, vegetables, and whole grains. Known to reduce the risk of heart disease and stroke."
+  },
+  {
+    "question": "Give three tips for effective time management.",
+    "answer": "Prioritize tasks using the Eisenhower Matrix, break large projects into smaller steps, and set specific deadlines for each goal."
+  },
+  {
+    "question": "Explain the difference between 'Climate' and 'Weather'.",
+    "answer": "Weather is the short-term atmospheric conditions (e.g., today's rain). Climate is the long-term average of those conditions (e.g., tropical climate)."
+  },
+  {
+    "question": "Draft a checklist for an international travel trip.",
+    "answer": "Passport/Visa, Travel insurance, Local currency/Credit cards, Universal adapter, Toiletries, Packing for weather, Booking confirmations."
+  },
+  {
+    "question": "How do you cite a website in APA format?",
+    "answer": "Author, A. A. (Year, Month Day). Title of page. Site name. URL"
+  },
+  {
+    "question": "Provide a simple recipe for a healthy smoothie.",
+    "answer": "Blend 1 banana, 1 cup of spinach, 1 cup of almond milk, and a handful of frozen berries until smooth."
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris."
+  },
+  {
+    "question": "Explain the Pareto Principle (80/20 rule).",
+    "answer": "The concept that 80% of consequences come from 20% of causes (e.g., 80% of sales from 20% of clients)."
+  },
+  {
+    "question": "Draft a short 'Thank You' note for a job interview.",
+    "answer": "Dear [Name], thank you for the opportunity to interview today. I enjoyed learning more about the role and am excited about the possibility of joining your team."
+  },
+  {
+    "question": "How do you calculate the area of a circle?",
+    "answer": "Area = π * r², where r is the radius of the circle."
+  },
+  {
+    "question": "What are the major parts of a standard business letter?",
+    "answer": "Sender's address, Date, Recipient's address, Salutation, Body, Closing, Signature."
+  },
+  {
+    "question": "Explain the benefit of reading fiction for adults.",
+    "answer": "Improves empathy, reduces stress, and enhances vocabulary and cognitive flexibility."
+  },
+  {
+    "question": "Give three ways to reduce household waste.",
+    "answer": "Composting food scraps, avoiding single-use plastics, and buying items with minimal packaging."
+  },
+  {
+    "question": "What is 'Mindfulness' meditation?",
+    "answer": "The practice of focusing one's attention on the present moment while acknowledging and accepting thoughts and feelings without judgment."
+  },
+  {
+    "question": "Draft a 100-word product description for a reusable water bottle.",
+    "answer": "Stay hydrated and eco-friendly with our premium insulated water bottle. Made from durable stainless steel, it keeps drinks cold for 24 hours or hot for 12. Its leak-proof design and sleek finish make it the perfect companion for the gym, office, or hiking trail. Say goodbye to single-use plastics and join the movement today."
+  },
+  {
+    "question": "Explain the concept of 'Sustainability' in simple terms.",
+    "answer": "Meeting our own needs without compromising the ability of future generations to meet their own needs."
+  },
+  {
+    "question": "Common symptoms of the flu compared to a cold?",
+    "answer": "Flu is usually more severe, with sudden fever, muscle aches, and extreme fatigue, while a cold typically includes a runny nose and sore throat."
+  },
+  {
+    "question": "How do you create a strong, secure password?",
+    "answer": "Use a combination of upper/lowercase letters, numbers, and symbols, and avoid easily guessable information like birthdays."
+  },
+  {
+    "question": "Explain the importance of hydration for physical performance.",
+    "answer": "Water regulates body temperature, lubricates joints, and helps transport nutrients to give you energy and keep you healthy."
+  },
+  {
+    "question": "What are the primary colors of light (Additive colors)?",
+    "answer": "Red, Green, Blue (RGB)."
+  },
+  {
+    "question": "Draft a simple cover letter opening for a project manager position.",
+    "answer": "I am writing to express my strong interest in the Project Manager position at [Company], as advertised. With over five years of experience in leading cross-functional teams and delivering complex projects on time..."
+  },
+  {
+    "question": "Explain the 'Five Whys' technique for problem-solving.",
+    "answer": "A strategy for identifying the root cause of a problem by asking 'Why?' five times in succession."
+  },
+  {
+    "question": "What is the difference between 'Who' and 'Whom'?",
+    "answer": "'Who' is the subject of a sentence (e.g., Who is there?). 'Whom' is the object (e.g., To whom it may concern)."
+  },
+  {
+    "question": "How do you remove a red wine stain from a white carpet?",
+    "answer": "Blot (don't rub) the stain, apply a mixture of dish soap and white vinegar, then rinse with water."
+  },
+  {
+    "question": "What is a 'Global Village'?",
+    "answer": "The idea that technology and communication have connected the whole world as if it were a single village."
+  },
+  {
+    "question": "Explain the concept of 'Emotional Intelligence' (EQ).",
+    "answer": "The ability to understand, use, and manage your own emotions in positive ways to relieve stress, communicate effectively, and empathize with others."
+  },
+  {
+    "question": "Draft three interview questions for a sales role.",
+    "answer": "Can you describe a time you overcame an objection from a difficult client? How do you handle rejection? What's your strategy for meeting sales targets?"
+  },
+  {
+    "question": "What are the core stages of the water cycle?",
+    "answer": "Evaporation, Condensation, Precipitation, and Collection."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What are the four components of a SWOT analysis?",
+    "answer": "Strengths, Weaknesses, Opportunities, Threats."
+  },
+  {
+    "question": "Define 'ROI' and provide its formula.",
+    "answer": "Return on Investment. (Net Profit / Cost of Investment) * 100."
+  },
+  {
+    "question": "What is the purpose of a Gap Analysis?",
+    "answer": "To identify the difference between current state and desired future state, then plan steps to close that gap."
+  },
+  {
+    "question": "Explain 'PESTLE' analysis.",
+    "answer": "A framework for analyzing external factors: Political, Economic, Social, Technological, Legal, Environmental."
+  },
+  {
+    "question": "What is 'Requirement Gathering', and how is it done?",
+    "answer": "Collecting user needs for a project through interviews, workshops, surveys, and documentation review."
+  },
+  {
+    "question": "Define 'KPI' (Key Performance Indicator).",
+    "answer": "A measurable value that demonstrates how effectively a company is achieving key business objectives."
+  },
+  {
+    "question": "What is 'Process Mapping', and why is it used?",
+    "answer": "A visual representation of work steps, used to identify inefficiencies and improve workflows."
+  },
+  {
+    "question": "Explain 'Cost-Benefit Analysis' (CBA).",
+    "answer": "A systematic approach to estimating the strengths and weaknesses of alternatives to determine the best option."
+  },
+  {
+    "question": "What is 'Agile' methodology in terms of project management?",
+    "answer": "An iterative approach to project management and software development that helps teams deliver value to customers faster."
+  },
+  {
+    "question": "Define 'User Story' in the context of business requirements.",
+    "answer": "A short, simple description of a feature told from the perspective of the person who desires the new capability."
+  },
+  {
+    "question": "What is 'Benchmarking'?",
+    "answer": "Comparing business processes and performance metrics to industry bests or best practices from other companies."
+  },
+  {
+    "question": "Explain 'BPMN' (Business Process Model and Notation).",
+    "answer": "A standard way of documenting business processes through flowcharts that can be easily understood by all stakeholders."
+  },
+  {
+    "question": "What is 'Risk Management', and name its steps.",
+    "answer": "Identifying, assessing, and controlling threats to an organization's capital and earnings. Steps: Identification, Assessment, Mitigation, Monitoring."
+  },
+  {
+    "question": "Define 'Stakeholder' in a project.",
+    "answer": "Any person or group who has an interest in the outcome of a project (e.g., customers, employees, investors)."
+  },
+  {
+    "question": "What is 'Scope Creep', and how do you prevent it?",
+    "answer": "The uncontrolled growth of a project's scope. Prevent it by having a clear scope document and formal change control process."
+  },
+  {
+    "question": "Explain 'Waterfall' vs. 'Agile' project management.",
+    "answer": "Waterfall is sequential and rigid. Agile is iterative and flexible, allowing for continuous feedback."
+  },
+  {
+    "question": "What is 'Data Visualization'?",
+    "answer": "The graphical representation of information and data (e.g., charts, graphs, maps) to quickly identify trends and patterns."
+  },
+  {
+    "question": "Define 'Elicitation' in business analysis.",
+    "answer": "The proactive process of uncovering requirements from stakeholders and other sources."
+  },
+  {
+    "question": "What is 'Total Quality Management' (TQM)?",
+    "answer": "A management approach to long-term success through customer satisfaction, where all employees participate in improving processes."
+  },
+  {
+    "question": "Explain 'Six Sigma'.",
+    "answer": "A set of techniques and tools for process improvement that aims to reduce the probability of errors or defects."
+  },
+  {
+    "question": "What is 'Business Case'?",
+    "answer": "A document that justifies the start of a project based on its expected commercial benefit."
+  },
+  {
+    "question": "Define 'Feasibility Study'.",
+    "answer": "An assessment of the practicality of a proposed plan or method (e.g., technical, economic, or legal feasibility)."
+  },
+  {
+    "question": "What is 'Moscow' prioritization?",
+    "answer": "Must-have, Should-have, Could-have, Won't-have. A method for prioritizing project requirements."
+  },
+  {
+    "question": "Explain 'Change Management'.",
+    "answer": "A systematic approach to dealing with the transition or transformation of an organization's goals, processes, or technologies."
+  },
+  {
+    "question": "What is 'Data Mining'?",
+    "answer": "The process of discovering patterns and knowledge from large amounts of data to predict outcomes."
+  },
+  {
+    "question": "Define 'Scalability' in a business context.",
+    "answer": "The ability of a business or system to handle a growing amount of work or its potential to be enlarged to accommodate that growth."
+  },
+  {
+    "question": "What is 'Outsourcing'?",
+    "answer": "Getting goods or services from an outside supplier, often to reduce costs or improve efficiency."
+  },
+  {
+    "question": "Explain 'Supply Chain Management' (SCM).",
+    "answer": "The management of the flow of goods and services, including all processes that transform raw materials into final products."
+  },
+  {
+    "question": "What is 'Competitive Advantage'?",
+    "answer": "A condition or circumstance that puts a company in a superior business position relative to its competitors."
+  },
+  {
+    "question": "Define 'Market Research'.",
+    "answer": "The action or activity of gathering information about consumers' needs and preferences."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Write a python function `fibonacci(n)` that returns the nth Fibonacci number. Assume n >= 0, fibonacci(0) = 0, fibonacci(1) = 1.",
+    "answer": "def fibonacci(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for _ in range(n - 1):\n        a, b = b, a + b\n    return b",
+    "metadata": {"entry_point": "fibonacci", "difficulty": "easy"}
+  },
+  {
+    "question": "Write a Python function `is_palindrome(s)` that checks if a string is a palindrome. Ignore case and spaces.",
+    "answer": "def is_palindrome(s):\n    cleaned = ''.join(c.lower() for c in s if c.isalnum())\n    return cleaned == cleaned[::-1]",
+    "metadata": {"entry_point": "is_palindrome", "difficulty": "easy"}
+  },
+  {
+    "question": "Create a function `max_subarray(nums)` to find the contiguous subarray with the largest sum and return its sum.",
+    "answer": "def max_subarray(nums):\n    if not nums: return 0\n    curr_max = global_max = nums[0]\n    for i in range(1, len(nums)):\n        curr_max = max(nums[i], curr_max + nums[i])\n        if curr_max > global_max:\n            global_max = curr_max\n    return global_max",
+    "metadata": {"entry_point": "max_subarray", "difficulty": "medium"}
+  },
+  {
+    "question": "Write a function `two_sum(nums, target)` that returns the indices of the two numbers such that they add up to target.",
+    "answer": "def two_sum(nums, target):\n    seen = {}\n    for i, n in enumerate(nums):\n        if target - n in seen:\n            return [seen[target - n], i]\n        seen[n] = i\n    return []",
+    "metadata": {"entry_point": "two_sum", "difficulty": "easy"}
+  },
+  {
+    "question": "Implement `reverse_integer(x)` that reverses the digits of a 32-bit signed integer. Return 0 if it overflows.",
+    "answer": "def reverse_integer(x):\n    sign = [1, -1][x < 0]\n    rev = int(str(abs(x))[::-1])\n    return sign * rev if rev < 2**31 else 0",
+    "metadata": {"entry_point": "reverse_integer", "difficulty": "medium"}
+  }
+]

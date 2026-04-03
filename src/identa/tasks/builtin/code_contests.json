@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Given an array of integers, write `count_inversions(arr)` to count the number of inversions in the array.",
+    "answer": "def count_inversions(arr):\n    # Using a simple O(N^2) for brevity in test data, though merge sort O(N log N) is better\n    inv_count = 0\n    for i in range(len(arr)):\n        for j in range(i + 1, len(arr)):\n            if arr[i] > arr[j]:\n                inv_count += 1\n    return inv_count",
+    "metadata": {"entry_point": "count_inversions", "competition": "codeforces"}
+  },
+  {
+    "question": "Write `find_bridges(n, edges)` that identifies all critical connections (bridges) in a network graph.",
+    "answer": "def find_bridges(n, edges):\n    import collections\n    graph = collections.defaultdict(list)\n    for u, v in edges:\n        graph[u].append(v)\n        graph[v].append(u)\n    bridges = []\n    discovery = [-1] * n\n    low = [-1] * n\n    time = 0\n    def dfs(u, parent):\n        nonlocal time\n        discovery[u] = low[u] = time\n        time += 1\n        for v in graph[u]:\n            if v == parent: continue\n            if discovery[v] == -1:\n                dfs(v, u)\n                low[u] = min(low[u], low[v])\n                if low[v] > discovery[u]:\n                    bridges.append([u, v])\n            else:\n                low[u] = min(low[u], discovery[v])\n    for i in range(n):\n        if discovery[i] == -1:\n            dfs(i, -1)\n    return bridges",
+    "metadata": {"entry_point": "find_bridges", "competition": "leetcode"}
+  }
+]
